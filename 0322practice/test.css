@@ -1,0 +1,63 @@
+a:link, a:visited{
+    background-color:#f44336;
+    color:white;
+    padding:15px 25px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+}
+a:hover, a:active{
+    background-color:red;
+}
+body{
+    background-image:url('paris.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+table{
+    width:100%;
+    font-size:3rem;
+}
+table,th,td{
+    border:2px solid black;
+}
+th,td{
+    padding:15px;
+}
+th{
+    text-align:left;
+}
+td{
+    text-align:right;
+}
+table{
+    border-spacing:15px;
+}
+table#t01 tr:nth-child(even){
+    background-color:#eee;
+}
+table#t01 tr:nth-child(odd){
+    background-color:#fff;
+}
+table#t01 th{
+    color:white;
+    background-color:black;
+}
+.note{
+    color:red;
+}
+#myHeader{
+    background-color:lightblue;
+    color:black;
+    padding:40px;
+    text-align:right;
+}
+#chp{
+    color:yellow;
+}
+iframe{
+    width:1000px;
+    height:700px;
+    border:2px solid red;
+}
